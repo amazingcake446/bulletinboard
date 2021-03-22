@@ -1,0 +1,37 @@
+.card {
+
+    border-radius: 1rem; 
+    height: 12rem; 
+    width: 40rem;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    padding-left: 1rem; 
+    background: #f5f5f5; 
+}
+.question {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.answer{
+    font-size: .8rem;
+}
+
+.btn {
+    padding: 1rem; 
+    background: skyblue; 
+    border: none; 
+    border-radius: 1rem;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+.box {
+    width: 90%;  
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.icon {
+    cursor: pointer;
+}
